@@ -20,7 +20,7 @@ dans laquelle :
  — déclarez et intentiez un adhèrent ;
  — déclarez et instanciez un livre qui est écrit par un auteur ; 
  — affichez les informations de l’adhèrent et du livre.
------------------------Exercice 2 :--------------------------------------------------------------------------
+-----------------------Exercice 2:--------------------------------------------------------------------------
 On souhaite créer une application en java qui permet de gérer les salaires des ingénieurs et 
 des managers d’une entreprise de développement informatique.
 1. Créez la classe abstraite Employe avec les attributs nom, prenom, email, telephone, et 
