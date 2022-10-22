@@ -7,13 +7,9 @@ public abstract  class Employe {
     private String phone;
     private double salary ;
 
+ // default constructor
 
-
-    // default constructor
-
-    public Employe() {
-
-    }
+    public Employe() {}
     // Constructor with parameters
     public Employe(String firstName, String lastName, String phone, double salary) {
         this.firstName = firstName;
