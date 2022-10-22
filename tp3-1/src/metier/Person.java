@@ -1,5 +1,4 @@
 package metier;
-
 public class Person {
     private String firstName;
     private  String lastName ;
@@ -16,8 +15,7 @@ public class Person {
     }
 
  // Getters
-
-    private String getFirstName() {
+  private String getFirstName() {
         return firstName;
     }
 

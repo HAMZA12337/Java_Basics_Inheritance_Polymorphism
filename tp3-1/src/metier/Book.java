@@ -14,7 +14,6 @@ public class Book {
         this.title=title;
     }
 
-
     // display method
 
     public void display(){

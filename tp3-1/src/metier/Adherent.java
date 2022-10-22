@@ -8,8 +8,7 @@ public class Adherent extends Person {
 
     // constructor
 
-
-    public Adherent(String firstName, String lastName, String email, String tel, int age, int numAdherent) {
+   public Adherent(String firstName, String lastName, String email, String tel, int age, int numAdherent) {
         super(firstName, lastName, email, tel, age);
         this.numAdherent = numAdherent;
     }
