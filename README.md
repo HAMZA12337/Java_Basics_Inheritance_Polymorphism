@@ -1,7 +1,9 @@
 # Java_Basics_Inheritance_Polymorphism
 Java_Basics_Inheritance_Polymorphism
 TP 2 : Héritage, Redéfinition, Polymorphisme
-Exercice 1 : 
+-------------------------Programmation Orientée Objet Java 2021-----------------------------------------------
+-------------------------Mr. Abdelmajid BOUSSELHAM 2---------------------------------------------------------
+-------------------------Exercice 1 :----------------------------------------------------------------------- 
 On souhaite créer une application JAVA pour la gestion des livres et des adhèrents d’une 
 bibliothèque.
 1. Créez une classe Personne avec les attributs privés : nom, prenom, email, tel, et age. 
@@ -18,7 +20,7 @@ dans laquelle :
  — déclarez et intentiez un adhèrent ;
  — déclarez et instanciez un livre qui est écrit par un auteur ; 
  — affichez les informations de l’adhèrent et du livre.
-Exercice 2 :
+-----------------------Exercice 2 :--------------------------------------------------------------------------
 On souhaite créer une application en java qui permet de gérer les salaires des ingénieurs et 
 des managers d’une entreprise de développement informatique.
 1. Créez la classe abstraite Employe avec les attributs nom, prenom, email, telephone, et 
@@ -27,8 +29,7 @@ calculerSalire() qui retourne le salaire d’un employé.
 2. Créez la classe Ingénieur avec l’attribut spécialité. Redéfinissez la méthode 
 calculerSalire() sachant qu’on prévoit une augmentation de 15% par rapport à son salaire 
 normal.
-Programmation Orientée Objet Java 2021
-Mr. Abdelmajid BOUSSELHAM 2
+
 3. Créez la classe Manager avec l’attribut service. Redéfinissez la méthode 
 calculerSalire() sachant qu’on prévoit une augmentation de 20% par rapport à son salaire 
 normal.
