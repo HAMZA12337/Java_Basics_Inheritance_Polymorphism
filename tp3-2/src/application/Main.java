@@ -4,6 +4,8 @@ import metier.Employe;
 import metier.Engineer;
 import metier .Manager;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -14,7 +16,9 @@ public class Main {
         System.out.println("---------------- Manager Salary-----------------------");
         System.out.println(e2.calculateSalary());
 
-
+System.out.println("--------------------- The whole information about actors--------------------------------");
+        System.out.println(e1);
+        System.out.println(e2);
 
     }
 }

@@ -12,13 +12,16 @@ public class Engineer extends Employe {
     public double calculateSalary(){
 
 
-    return 1.15*this.getSalary();}
+    return 1.15*this.getSalary();
+    }
 
 
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Engineer{" +
+                "speciality='" + speciality + '\'' +
+                 " Salary ='" + this.calculateSalary() + '\'' +
+                  super.toString()
+                ;
+    }
 }

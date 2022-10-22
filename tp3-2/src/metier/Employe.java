@@ -27,4 +27,15 @@ public abstract  class Employe {
     public double getSalary() {
         return salary;
     }
+
+
+    @Override
+    public String toString() {
+        return "Employe{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phone='" + phone + '\'' +
+
+                '}';
+    }
 }

@@ -19,9 +19,12 @@ public class Manager extends Employe{
         return 1.2*this.getSalary();}
 
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Manager{" +
+                "service='" + service + '\'' +
+                " Salary ='" + this.calculateSalary() + '\'' +
+                super.toString()
+                ;
+    }
 }
